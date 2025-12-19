@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: MeieScript;
+    src: url(assets/fonts/MeieScript-Regular.ttf);
+}
+
 :root {
     --PrimaryColor: #000;
     --SecondColor: #fff;
-    --Font: ;
+    --Font: 'MeieScript', Arial, sans-serif;
 }
 
 * {
@@ -14,15 +19,14 @@
 
 
 body {
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
 }
 
 header {
     margin: auto;
     height: 100px;
-    width: 100vw;
-    position: relative;
+    width: 100%;
+    position: fixed;
     background-color: var(--PrimaryColor);
     border-bottom: 1px solid var(--SecondColor);
 }
@@ -37,3 +41,19 @@ header img {
     transform: translate(-50%, -50%);
     padding: 10px;
 }
+
+main {
+    padding-top: 110px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--PrimaryColor);
+    color: var(--SecondColor);
+}
+
+main h1 {
+    padding: 10px 0;
+    font-size: 2.5rem;
+    font-family: var(--Font);
+    font-weight: 100;
+}
+
