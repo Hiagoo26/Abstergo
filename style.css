@@ -9,6 +9,7 @@
     --PrimaryColor: #000;
     --SecondColor: #fff;
     --Font: 'MeieScript', Arial, sans-serif;
+    --Font2: Arial, sans-serif;
 }
 
 * {
@@ -21,6 +22,8 @@
 body {
     min-height: 100vh;
 }
+
+/* Header */
 
 header {
     margin: auto;
@@ -42,6 +45,7 @@ header img {
     padding: 10px;
 }
 
+/* Main */
 main {
     padding-top: 110px;
     height: 100%;
@@ -51,7 +55,34 @@ main {
 }
 
 main h1 {
-    padding: 10px 0;
+    padding: 10px 5px;
+    font-size: 2.5rem;
+    font-family: var(--Font);
+    font-weight: 100;
+}
+
+main p {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: var(--Font2);
+}
+
+main video {
+    margin: auto;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+video source {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+main h2 {
+    padding: 10px 20px;
+    text-align: right;
     font-size: 2.5rem;
     font-family: var(--Font);
     font-weight: 100;
