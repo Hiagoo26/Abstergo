@@ -10,6 +10,12 @@
     --SecondColor: #fff;
     --Font: 'MeieScript', Arial, sans-serif;
     --Font2: Arial, sans-serif;
+    --Assobiador: #670305;
+    --Presidente: #0c0553;
+    --ProjetoX: #2f1b02;
+    --Kassah: #300743;
+    --Custodio: #172629;
+    --Amigo: #141414;
 }
 
 * {
@@ -30,11 +36,12 @@ header {
     height: 100px;
     width: 100%;
     position: fixed;
+    z-index: 1;
     background-color: var(--PrimaryColor);
     border-bottom: 1px solid var(--SecondColor);
 }
 
-header img {
+header > img {
     display: block;
     height: 100px;
     width: 100px;
@@ -88,3 +95,84 @@ main h2 {
     font-weight: 100;
 }
 
+.prota {
+    height: 100%;
+    width: 100%;
+}
+
+section article img {
+    height: 500px;
+    width: 300px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+section article .atributos {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border: none;
+}
+
+section article h3 {
+    text-align: center;
+    font-family: var(--Font);
+    font-size: 2rem;
+}
+
+section article p {
+    text-align: center;
+    font-family: var(--Font2);
+    font-size: 1rem;
+    
+}
+
+/* Vilões */
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+article > .habilidadesAsso > div > h4 {
+    background-color: #ff0000;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    color: var(--PrimaryColor);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-size: var(--Font2);
+}
+
+article > .habilidades > div > p {
+    margin-top: 5px;
+    background-color: #333333;
+    border-radius: 10px;
+    text-align: center;
+    font-family: var(--Font2);
+}
+
+.Assobiador {
+    background: var(--Assobiador) fixed;
+}
+
+article > .habilidadesPresi > div > h4 {
+    background-color: #0000ffd2;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    color: var(--PrimaryColor);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-size: var(--Font2);
+}
+
+.Presidente {
+    background: var(--Presidente) fixed;
+}
