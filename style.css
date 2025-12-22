@@ -12,7 +12,7 @@
     --Font2: Arial, sans-serif;
     --Assobiador: #670305;
     --Presidente: #0c0553;
-    --ProjetoX: #2f1b02;
+    --ProjetoX: #f59e12;
     --Kassah: #300743;
     --Custodio: #172629;
     --Amigo: #141414;
@@ -127,7 +127,7 @@ section article p {
     
 }
 
-/* Vilões */
+/* VILÕES */
 
 article {
     display: flex;
@@ -137,8 +137,7 @@ article {
     padding: 10px;
 }
 
-article > .habilidadesAsso > div > h4 {
-    background-color: #ff0000;
+article > div > div > h4 {
     margin-top: 10px;
     padding: 5px;
     border-radius: 20px;
@@ -149,30 +148,62 @@ article > .habilidadesAsso > div > h4 {
     font-size: var(--Font2);
 }
 
-article > .habilidades > div > p {
-    margin-top: 5px;
-    background-color: #333333;
-    border-radius: 10px;
-    text-align: center;
-    font-family: var(--Font2);
-}
+/* Assobiador */
 
 .Assobiador {
     background: var(--Assobiador) fixed;
 }
 
-article > .habilidadesPresi > div > h4 {
-    background-color: #0000ffd2;
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 20px;
-    color: var(--PrimaryColor);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    font-size: var(--Font2);
+article > .habilidadesAsso > div > h4 {
+    background-color: #ff0000;
 }
+
+/* Presidente */
 
 .Presidente {
     background: var(--Presidente) fixed;
+}
+
+article > .habilidadesPresi > div > h4 {
+    background-color: #0000ffd2;
+}
+
+/* Projeto X-Terminio */
+
+.ProjetoX {
+    background: var(--ProjetoX);
+}
+
+article > .habilidadesX > div > h4 {
+    background-color: #ad7307;
+}
+
+/* Kassah Ador */
+
+.Kassah {
+    background: var(--Kassah) fixed;
+}
+
+article > .habilidadesKassah > div > h4 {
+    background-color: #800080;
+}
+
+/* Custodio */
+
+.Custodio {
+    background: var(--Custodio) fixed;
+}
+
+article > .habilidadesCustodio > div > h4 {
+    background-color: cyan;
+}
+
+/* Amigo */
+
+.Amigo {
+    background: var(--Amigo) fixed;
+}
+
+article > .habilidadesAmigo > div > h4 {
+    background-color: #808080;
 }
