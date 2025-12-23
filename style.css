@@ -33,12 +33,12 @@ body {
 
 header {
     margin: auto;
+    border-bottom: 1px solid var(--SecondColor);
     height: 100px;
     width: 100%;
     position: fixed;
     z-index: 1;
     background-color: var(--PrimaryColor);
-    border-bottom: 1px solid var(--SecondColor);
 }
 
 header > img {
@@ -88,6 +88,7 @@ video source {
 }
 
 main h2 {
+    margin-top: 15px ;
     padding: 10px 20px;
     text-align: right;
     font-size: 2.5rem;
@@ -95,9 +96,9 @@ main h2 {
     font-weight: 100;
 }
 
-.prota {
-    height: 100%;
-    width: 100%;
+main .direita {
+    padding: 10px 0;
+    text-align: left;
 }
 
 section article img {
@@ -127,7 +128,7 @@ section article p {
     
 }
 
-/* VILÕES */
+/* VILÕES e DELTA X */
 
 article {
     display: flex;
@@ -148,13 +149,13 @@ article > div > div > h4 {
     font-size: var(--Font2);
 }
 
-/* Assobiador */
+/* Assobiador e Sabrina */
 
-.Assobiador {
+.Tema-Vermelho {
     background: var(--Assobiador) fixed;
 }
 
-article > .habilidadesAsso > div > h4 {
+article > .habilidades-vermelho > div > h4 {
     background-color: #ff0000;
 }
 
@@ -170,40 +171,76 @@ article > .habilidadesPresi > div > h4 {
 
 /* Projeto X-Terminio */
 
-.ProjetoX {
+.Tema-Laranja {
     background: var(--ProjetoX);
 }
 
-article > .habilidadesX > div > h4 {
+article > .habilidades-laranja > div > h4 {
     background-color: #ad7307;
 }
 
 /* Kassah Ador */
 
-.Kassah {
+.Tema-Roxo {
     background: var(--Kassah) fixed;
 }
 
-article > .habilidadesKassah > div > h4 {
+article > .habilidades-roxo > div > h4 {
     background-color: #800080;
 }
 
 /* Custodio */
 
-.Custodio {
+.Tema-Ciano{
     background: var(--Custodio) fixed;
 }
 
-article > .habilidadesCustodio > div > h4 {
-    background-color: cyan;
+article > .habilidades-ciano > div > h4 {
+    background-color: #00ffff;
 }
 
 /* Amigo */
 
-.Amigo {
+.Tema-Cinza {
     background: var(--Amigo) fixed;
 }
 
-article > .habilidadesAmigo > div > h4 {
+article > .habilidades-cinza > div > h4 {
     background-color: #808080;
+}
+
+/* Historia Delta X */
+
+article > .historia {
+    margin: 10px 0;
+    border: 1px solid var(--PrimaryColor);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article > .historia > p {
+    text-align: justify;
+    font-family: var(--Font2);
+}
+
+article > .historia > p > a {
+    color: var(--PrimaryColor);
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid var(--SecondColor);
+    background-color: var(--PrimaryColor);
+}
+
+footer p {
+    padding: 20px;
+    color: var(--SecondColor);
+    text-align: center;
+    font-family: var(--Font2);
+}
+
+footer p > a {
+    color: var(--SecondColor);
+    text-decoration: none;
 }
