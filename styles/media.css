@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Responsividade */
+
+@media (min-width: 768px) {
+    main h1 {
+        font-size: 5rem;
+    }
+
+    main p {
+        font-size: 1.5rem;
+    }
+
+    main video {
+        max-height: 500px;
+    }
+
+    main h2 {
+        font-size: 4rem;
+    }
+
+    .nome-personagem {
+        font-size: 4rem;
+    }
+
+    .atributos {
+        height: 400px;
+        width: 400px;
+    }
+
+    .habilidade-titulo {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .habilidade-titulo {
+        margin: auto;
+        width: 50%;
+    }
+
+    article p {
+        margin: auto;
+        max-width: 50%;
+    }
+}
